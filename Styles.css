@@ -35,21 +35,21 @@ button{
 }
 
 .top-section{
-    height: 100px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
 .middle-section{
-    height: 400px;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bottom-section{
-    height: 400px;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
