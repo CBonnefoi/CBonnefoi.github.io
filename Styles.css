@@ -34,6 +34,13 @@ button{
     align-items: center;
 }
 
+.left-side{
+    display: flex;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
 .top-section{
     height: 10vh;
     display: flex;
