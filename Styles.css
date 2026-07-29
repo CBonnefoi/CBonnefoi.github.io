@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-.test {
-    color: blue;
-    background-color: black;
+
+.centered-title {
+    color: black;
     font-family: 'Roboto', 'sans-serif';
     font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-subtitle{
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
