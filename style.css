@@ -166,7 +166,7 @@ img {
 
 .projects-panel{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     gap: var(--spacing-md);
