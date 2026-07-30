@@ -165,8 +165,9 @@ img {
 }
 
 .panel-container{
-    display: inline;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: var(--spacing-md);
 }
 
