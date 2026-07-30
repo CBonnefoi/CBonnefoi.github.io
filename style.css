@@ -164,6 +164,15 @@ img {
     margin-bottom: var(--spacing-md);
 }
 
+.projects-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: var(--spacing-md);
+}
+
+
 /* ===================================
    Section du bas
    =================================== */
