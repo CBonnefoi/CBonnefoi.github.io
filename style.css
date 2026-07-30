@@ -166,6 +166,7 @@ img {
 
 .panel-container{
     display: flex;
+    flex-direction: row;
     gap: var(--spacing-md);
 }
 
