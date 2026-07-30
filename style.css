@@ -225,6 +225,83 @@ img {
     margin: var(--spacing-xs);
 }
 
+.project1-on-hover{
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 110%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+}
+
+.project1-item-hoverable{
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.project1-item-hoverable:hover .project1-on-hover{
+    opacity: 1;
+}
+
+
+.project2-on-hover{
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 110%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+}
+
+.project2-item-hoverable{
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.project2-item-hoverable:hover .project2-on-hover{
+    opacity: 1;
+}
+
+
+.project3-on-hover{
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 110%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+}
+
+.project3-item-hoverable{
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.project3-item-hoverable:hover .project3-on-hover{
+    opacity: 1;
+}
+
 
 /* ===================================
    Section du bas
