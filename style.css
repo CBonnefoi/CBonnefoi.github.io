@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Audiowide&family=Goldman:wght@400;700&family=Russo+One&family=Wallpoet&display=swap');
 /* ===================================
    Variables globales
    =================================== */
@@ -14,8 +14,8 @@
     --color-border-header: #a0a0ad;
     --color-skill: #181821;
 
-    --font-main: "Aclonica", Arial, sans-serif;
-    --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-title: "Audiowide", Arial, sans-serif;
+    --font-body: "Goldman", Helvetica, Arial, sans-serif;
 
     --spacing-xxs: 0.25rem;
     --spacing-xs: 0.5rem;
@@ -52,7 +52,7 @@ body {
    Titres centrés
    =================================== */
 .centered-title {
-    font-family: var(--font-main);
+    font-family: var(--font-title);
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
@@ -61,7 +61,7 @@ body {
 }
 
 .centered-subtitle {
-    font-family: var(--font-main);
+    font-family: var(--font-title);
     text-align: center;
     font-size: 1.3rem;
     font-weight: 400;
@@ -96,7 +96,7 @@ a:hover {
    Boutons
    =================================== */
 button {
-    font-family: var(--font-main);
+    font-family: var(--font-title);
     font-size: 1rem;
     padding: var(--spacing-xs) var(--spacing-sm);
     background-color: var(--color-accent);
@@ -146,7 +146,7 @@ img {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--spacing-sm);
-    width: 25%;
+    width: 20%;
 }
 
 .centered-div {
@@ -155,11 +155,12 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-width: 250px;
-    padding: var(--spacing-md);
-    background-color: var(--color-bg);
-    border: 1px dashed var(--color-border);
-    border-radius: var(--radius);
+}
+
+.top-section-text{
+    font-size: 24px;
+    text-wrap: wrap;
+    max-width : 1200px;
 }
 
 /* ===================================
@@ -221,7 +222,7 @@ img {
 .skill-indicator{
     font-size: 26px;
     display: flex;
-    width: 200px;
+    width: 300px;
     height: 40px;
     justify-content: center;
     align-items: center;
@@ -377,7 +378,7 @@ img {
     border-radius: var(--radius);
     padding: var(--spacing-xs);
     list-style: none;
-    min-width: 150px;
+    width: 250px;
     z-index: 1001;
 }
 
@@ -389,6 +390,38 @@ img {
     display: block;
 }
 
+.parent2 {
+    position: relative;
+    cursor: pointer;
+    color: var(--color-accent);
+    margin: var(--spacing-xs);
+}
+
+.parent2:hover {
+    color: var(--color-accent-hover);
+}
+
+.submenu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color-bg-header);
+    border: 1px dashed var(--color-border-header);
+    border-radius: var(--radius);
+    padding: var(--spacing-xs);
+    list-style: none;
+    width: 250px;
+    z-index: 1001;
+}
+
+.submenu2 li {
+    padding: var(--spacing-xs) 0;
+}
+
+.parent2:hover .submenu2 {
+    display: block;
+}
 
 /* ===================================
    Responsive
