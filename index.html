@@ -6,8 +6,26 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="header">
+        <div class="header-element">
+            <a href="index.html" class="active-link">Home</a>
+            <a href="./Pages/aboutMe.html">About Me</a>
+            <a href="./Pages/formations.html">Formations</a>
+            <ul>
+                <li class="parent">My Projects
+                <ul class="submenu">
+                    <li><a href="./Pages/CatCafe.html">Cat Café</a></li>
+                    <li><a href="./Pages/Brobots.html">Brobots</a></li>
+                    <li><a href="./Pages/Proof_of_Concept.html">Proof of Concept</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-element">Contact / About me ?</div>
+        <div class="header-element">Resume</div>
+    </div>
     <h1 class="centered-title">Hello, I'm Clément Bonnefoi!</h1>
-    <h2 class="centered-subtitle">4th year Game Design Student, specializing in Balancing, System & Combat Design, and Producing</h2>
+    <h2 class="centered-subtitle">4th year Game Design Student, specializing in Balancing, Combat & System Design, and Producing</h2>
     <div class="top-section">
         <div class="left-side">
             <!--<button>click me</button>
@@ -16,30 +34,67 @@
         <div>
             <div class="centered-div">
                 <div>
-                    <p>Hello ! I'm Clément Bonnefoi, 4th year Game Design student at Rubika Valenciennes, mostly working on Balancing, System & Combat design and Producing. <br><br>
+                    <p>Hello ! I'm Clément Bonnefoi, 4th year Game Design student at Rubika Valenciennes, mostly working on Balancing, Combat & System design and Producing. <br><br>
                     I am comfortable using both Unity and UE5, and eager to learn more !</p>
                 </div>
             </div>
             <div class="centered-div">
                 <ul>
-                    <li><a href="./Pages/aboutMe.html"> Link to my about page !</a></li>
-                    <li><a href="">Let's get in touch !</a></li>
+                    <li><a href="./Pages/aboutMe.html">More about me...</a></li>
+                    <li><a href="./Pages/contactMe.html">Let's get in touch !</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="middle-section">
+    <div class="middle-section" id = "projects">
         <h2 class="centered-section-title">My Projects</h2>
         <div class="panel-container">
-            <div class="project-item">Cat Café</div>
-            <div class="project-item">Brobots</div>
-            <div class="project-item">Proof of Concept</div>
+            <div class="project-item">
+                <a href="./Pages/CatCafe.html"><p class="project-item-title">Cat Café</p></a>
+                <p class="project-item-subtitle">Idle game on mobile<br>
+                5 Month-long published school project<br>
+                Team of 10</p>
+                <a href="./Pages/CatCafe.html"><img src="Images/PLACEHOLDER.png" alt="Thumbnail for one of my school projects, 'Cat Café'." class="project-item-thumbnail"></a><br>
+                <div class="skill-container">
+                    <p class="skill-indicator">Producing</p>
+                    <p class="skill-indicator">Economic Design</p>
+                    <p class="skill-indicator">Balancing</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <a href="./Pages/Brobots.html"><p class="project-item-title">Brobots</p></a>
+                <p class="project-item-subtitle">Coop Fast FPS on PC<br>
+                4 Month as a school project<br>
+                Team of 19</p>
+                <a href="./Pages/Brobots.html"><img src="Images/PLACEHOLDER.png" alt="Thumbnail for one of my school projects, 'Brobots'." class="project-item-thumbnail"></a><br>
+                <div class="skill-container">
+                    <p class="skill-indicator">Balancing</p>
+                    <p class="skill-indicator">System Design</p>
+                    <p class="skill-indicator">Combat Design</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <a href="./Pages/Proof_of_Concept.html"><p class="project-item-title">Proof of Concept</p></a>
+                <p class="project-item-subtitle">Game Design project<br>
+                    4 Month as a school project<br>
+                    Solo project
+                </p>
+                <a href="./Pages/Proof_of_Concept.html"><img src="Images/PLACEHOLDER.png" alt="Thumbnail for a Proof of Concept of a World of Warcraft Boss." class="project-item-thumbnail"></a><br>
+                <div class="skill-container">
+                    <p class="skill-indicator">Balancing</p>
+                    <p class="skill-indicator">Boss Design</p>
+                    <p class="skill-indicator">Unity C#</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="bottom-section">
         <h2 class="centered-section-title">BOTTOM SECTION</h2>
-        <p>BOTTOM SECTION</p>
+            <p class="parent"></p>
+                <ul class="submenu">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
     </div>
-    
 </body>
 </html>
