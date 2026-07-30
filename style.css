@@ -59,6 +59,14 @@ body {
     margin-bottom: var(--spacing-lg);
 }
 
+.centered-section-title{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-lg);
+}
+
 /* ===================================
    Liens
    =================================== */
