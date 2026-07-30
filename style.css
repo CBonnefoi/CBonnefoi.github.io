@@ -165,7 +165,7 @@ img {
 }
 
 .panel-container{
-    display: flex;
+    display: inline;
     flex-direction: row;
     gap: var(--spacing-md);
 }
