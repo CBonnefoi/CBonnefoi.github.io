@@ -131,7 +131,7 @@ img {
 }
 
 .left-side {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: flex-start;
     gap: var(--spacing-sm);
