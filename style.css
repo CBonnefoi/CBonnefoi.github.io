@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 /* ===================================
    Variables globales
    =================================== */
@@ -11,10 +12,12 @@
     --color-accent-hover: #9a80ff;
     --color-border: #2a2a35;
     --color-border-header: #a0a0ad;
-    --color-skill: #28284c;
+    --color-skill: #181821;
 
-    --font-main: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --font-main: "Aclonica", Arial, sans-serif;
+    --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+    --spacing-xxs: 0.25rem;
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
@@ -38,7 +41,7 @@
    Corps de page
    =================================== */
 body {
-    font-family: var(--font-main);
+    font-family: var(--font-body);
     background-color: var(--color-bg);
     color: var(--color-text);
     line-height: 1.6;
@@ -49,16 +52,18 @@ body {
    Titres centrés
    =================================== */
 .centered-title {
+    font-family: var(--font-main);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-top: var(--spacing-md);
     color: var(--color-text);
 }
 
 .centered-subtitle {
+    font-family: var(--font-main);
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-weight: 400;
     color: var(--color-text-muted);
     margin-bottom: var(--spacing-lg);
@@ -66,7 +71,7 @@ body {
 
 .centered-section-title{
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: 400;
     color: var(--color-text);
     margin-bottom: var(--spacing-lg);
@@ -171,6 +176,7 @@ img {
 
 .panel-container{
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     gap: var(--spacing-md);
@@ -178,8 +184,8 @@ img {
 
 .project-item{
     display: flex;
-    width: 350px;
-    height: 550px;
+    width: 460px;
+    height: 650px;
     padding: var(--spacing-md);
     background-color: var(--color-bg);
     border: 1px dashed var(--color-border);
@@ -189,14 +195,14 @@ img {
 }
 
 .project-item-title{
-    font-size: 20px;
+    font-size: 38px;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .project-item-subtitle{
     font-style: italic;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: lighter;
 }
 
@@ -207,22 +213,19 @@ img {
 
 .skill-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     overflow-wrap: break-word;
 }
 
 .skill-indicator{
-    font-size: 12px;
+    font-size: 26px;
     display: flex;
-    width: 75px;
+    width: 200px;
     height: 40px;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-skill);
-    border: 1px dashed var(--color-border);
-    border-radius: var(--radius);
-    margin: var(--spacing-xs);
+    margin: var(--spacing-xxs);
 }
 
 .project1-on-hover{
