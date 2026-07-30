@@ -164,12 +164,14 @@ img {
     margin-bottom: var(--spacing-md);
 }
 
-.projects-panel{
+.panel-container{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
     gap: var(--spacing-md);
+}
+
+.project-item{
+    display: flex;
+    
 }
 
 
