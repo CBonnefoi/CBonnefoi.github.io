@@ -167,6 +167,12 @@ img {
     font-size: 1.5rem;
 }
 
+.paragraph{
+    max-width: 110%;
+    text-align: left;
+    font-size: 24px;
+}
+
 .centered-text-container{
     flex-direction: column;
     width: 80%;
@@ -183,6 +189,8 @@ img {
 
 .basic-list{
     font-size: 18px;
+    text-align: left;
+    line-height: 32px;
 }
 
 /* ===================================
