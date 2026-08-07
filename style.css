@@ -165,6 +165,7 @@ img {
     text-align: left;
     max-width: 100%;
     font-size: 1.5rem;
+    line-height: var(--spacing-md);
 }
 
 .paragraph{
@@ -178,6 +179,7 @@ img {
     width: 80%;
     display: flex;
     justify-content: center;
+    text-align: left;
     margin: var(--spacing-md)
 }
 
