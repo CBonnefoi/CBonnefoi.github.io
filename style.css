@@ -3,15 +3,15 @@
    Variables globales
    =================================== */
 :root {
-    --color-bg: #0f0f14;
-    --color-bg-alt: #16161d;
-    --color-bg-header: #171722;
-    --color-text: #f2f2f5;
-    --color-text-muted: #a0a0ad;
-    --color-accent: #7c5cff;
-    --color-accent-hover: #9a80ff;
-    --color-border: #2a2a35;
-    --color-border-header: #a0a0ad;
+    --color-bg: #f7f7ff;
+    --color-bg-alt: #e8e9ff;
+    --color-bg-header: #d0d0e4;
+    --color-text: #131a2a;
+    --color-text-muted: #2f3a5f;
+    --color-accent: #3a435c;
+    --color-accent-hover: #272e42;
+    --color-border: #131a2a;
+    --color-border-header: #131a2a;
     --color-skill: #181821;
 
     --font-title: "Audiowide", Arial, sans-serif;
