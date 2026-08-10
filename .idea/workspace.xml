@@ -10,12 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85353adb-799d-4e85-8def-3df7c77ea37e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Brobots.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Brobots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/CatCafe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/CatCafe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Proof_of_Concept.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Proof_of_Concept.html" afterDir="false" />
-    </list>
+    <list default="true" id="85353adb-799d-4e85-8def-3df7c77ea37e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +71,7 @@
       <workItem from="1785426132393" duration="2538000" />
       <workItem from="1785442872645" duration="1605000" />
       <workItem from="1786092767496" duration="4322000" />
-      <workItem from="1786354960278" duration="6119000" />
+      <workItem from="1786354960278" duration="6416000" />
     </task>
     <servers />
   </component>
