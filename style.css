@@ -16,6 +16,14 @@
 
     --font-title: "Audiowide", Arial, sans-serif;
     --font-body: "Goldman", Helvetica, Arial, sans-serif;
+    
+    --font-size-xxs: 16px;
+    --font-size-sm: 18px;
+    --font-size-md: 1.5rem;
+    --font-size-lg: 1.75rem;
+    --font-size-subtitle: 1.3rem;
+    --font-size-h2: 2rem;
+    --font-size-h1: 3rem;
 
     --spacing-xxs: 0.25rem;
     --spacing-xs: 0.5rem;
@@ -54,7 +62,7 @@ body {
 .centered-title {
     font-family: var(--font-title);
     text-align: center;
-    font-size: 3rem;
+    font-size: var(--font-size-h1);
     font-weight: 700;
     margin-top: var(--spacing-md);
     color: var(--color-text);
@@ -63,7 +71,7 @@ body {
 .centered-subtitle {
     font-family: var(--font-title);
     text-align: center;
-    font-size: 1.3rem;
+    font-size: var(--font-size-subtitle);
     font-weight: 400;
     color: var(--color-text-muted);
     margin-bottom: var(--spacing-lg);
@@ -71,7 +79,7 @@ body {
 
 .centered-section-title{
     text-align: center;
-    font-size: 2rem;
+    font-size: var(--font-size-h2);
     font-weight: 400;
     color: var(--color-text);
     margin-bottom: var(--spacing-lg);
@@ -170,13 +178,31 @@ img {
     justify-content: center;
     text-align: left;
     max-width: 100%;
-    font-size: 1.5rem;
+    font-size: var(--font-size-md);
     line-height: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.centered-text-moreInfo{
+    color: var(--color-text-muted);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 100%;
+    font-size: var(--font-size-sm);
+    line-height: var(--spacing-md);
+    margin: var(--spacing-md);
+}
+
+.moreInfo-list{
+    font-size: var(--font-size-sm);
+    text-align: left;
+    line-height: 32px;
 }
 
 .centered-text-link{
     max-width: 100%;
-    font-size: 1.5rem;
+    font-size: var(--font-size-md);
     line-height: var(--spacing-md);
     text-align: left;
 }
@@ -184,7 +210,7 @@ img {
 .paragraph{
     max-width: 110%;
     text-align: left;
-    font-size: 24px;
+    font-size: var(--font-size-md);
 }
 
 .centered-text-container{
@@ -197,13 +223,13 @@ img {
 }
 
 .top-section-text{
-    font-size: 24px;
+    font-size: var(--font-size-md);
     text-wrap: wrap;
     max-width : 1200px;
 }
 
 .basic-list{
-    font-size: 18px;
+    font-size: var(--font-size-md);
     text-align: left;
     line-height: 32px;
 }
@@ -274,6 +300,14 @@ img {
     justify-content: center;
     align-items: center;
     margin: var(--spacing-xxs);
+}
+
+#showMoreInfoDiv{
+    display: none;
+}
+
+#toggleMoreInfoDiv{
+    margin-top: var(--spacing-sm);
 }
 
 .project1-on-hover{
@@ -353,6 +387,53 @@ img {
     opacity: 1;
 }
 
+.boss-ability-thumbnail{
+    width : 500px;
+    height: auto;
+    margin-top: var(--spacing-xs);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* ===================================
+   Section d'exemple
+   ===================================
+
+.example-section-container{
+    margin-top: 40px;
+}
+
+.example-section-box-parent{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto 0;
+}
+
+.example-section-tab{
+    position: absolute;
+    border-radius: var(--radius);
+    top: -32px;
+    left: 0;
+    background: var(--color-bg);
+    border: 1px solid #333;
+    border-bottom: none;
+    padding: 6px 20px;
+    font-size: var(--font-size-subtitle);
+}
+
+.example-section-box{
+    border: 1px solid #333;
+    border-radius: var(--radius);
+    background: var(--color-bg);
+    min-height: 130px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: #333;
+}
+*/
 
 /* ===================================
    Section du bas

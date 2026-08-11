@@ -89,6 +89,30 @@
                 <li>Integrating and testing values of different enemies, weapons and difficulties</li>
             </ul>
         </div>
+        <button id="toggleBtn">More about this...</button>
+        <div class="" id="showMoreInfoDiv" style="display: none;">
+            <div class="centered-text-moreInfo"> <!--Ici j'ai pas trouvé comment faire le retour à la ligne donc juste met des "<br>" quand il faut-->
+                On Brobots, the balancing was really challenging, and for several reasons. <br>
+                The first one is obviously that I had never balanced an FPS, let alone a 2-Player Coop Fast FPS. This proved to be much harder than anticipated,
+                especially because of some mistakes I've made : <br><br>
+                The first balancing iteration I came up with on Brobots was way too focused on the details : I was trying to anticipate how hard the enemies would be to hit,
+                and balance their HP and Damage based on that. However, guessing how hard enemies were to hit was just too hard and not needed.
+                <br>
+                Around half of the project, I started changing my logic, based on a few assumptions :
+            </div>
+            <div class="centered-text-moreInfo">
+                <ul class="moreInfo-list">
+                    <li>Guessing how hard enemies are to hit is useless since we do not want any enemy to be hard to hit</li>
+                    <li>Balancing a single enemy is useless, players will never fight an enemy on 1 to 1 combat</li>
+                    <li>As such, the behaviour of a group of enemies is more important than the behaviour of a single enemy</li>
+                </ul>
+            </div>
+            <div class="centered-text-moreInfo">
+                Overall, I started orienting my logic around the groups of enemies the players faces, rather than the specific enemy on that group : Who cares if a single enemy
+                is too weak of too strong, as long as the fight against the group is fun ?<br><br>
+                Changing this logic allowed me to balance enemies much faster, leaving more time to balance player abilities, and make their weapons satisfying.
+            </div>
+        </div>
         <div class="centered-text" id="game-design">
             <br><br><br>In Game Design :<br><br>
         </div>
@@ -110,5 +134,17 @@
             soft-skills needed to work with such a team.
         </div>
     </div>
+    <script>
+        const btn = document.getElementById('toggleBtn');
+        const div = document.getElementById('showMoreInfoDiv');
+
+        btn.addEventListener('click', () => {
+            if (div.style.display === 'none') {
+                div.style.display = 'block';
+            } else {
+                div.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>

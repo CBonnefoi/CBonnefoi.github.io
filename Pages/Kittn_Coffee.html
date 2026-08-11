@@ -84,6 +84,23 @@
                 <li>Documenting the system and explaining what were the main mathematical challenges</li>
             </ul>
         </div>
+        <button id="toggleBtn">More about this...</button>
+        <div class="" id="showMoreInfoDiv" style="display: none;">
+            <div class="centered-text-moreInfo"> <!--Ici j'ai pas trouvé comment faire le retour à la ligne donc juste met des "<br>" quand il faut-->
+                To balance Kitt'n Coffee, we used .csv files at first, helping us to get a total control over any value in the game. Those files would typically look like these :
+                <br>
+                <iframe title="TableEffect.csv" aria-label="Table" id="datawrapper-chart-xu1rq" src="https://datawrapper.dwcdn.net/xu1rq/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="369" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>                <br><br>
+                We ended up changing the way we worked towards the end, because we wanted to allow players to play for a long time, meaning formulas became easier to manage in the
+                limited time we had : having a single .csv file for over 30 furnitures, each with 12 levels became too long to fine-tune, compared to simple formulas.
+                <br><br>
+                The most challenging part of balancing Kitt'n Coffee was trying to get the rythm right. Just like any Idle Game, we had to get the rythm right to make the game satisfying.
+                In order to not lose another 40+ minutes every time we made a simple change, I made several tools on Google Sheets allowing us to better understand what
+                every change would do.
+                <br><br><br>
+                We also set up a logging tool, allowing us to have a deeper look at what the players were really doing. This tool also helped us track a lot of bugs we
+                wouldn't have been able to detect otherwise.
+            </div>
+        </div>
         <div class="centered-text" id="producing">
             <br><br><br>In Producing : <br><br>
         </div>
@@ -123,5 +140,17 @@
             Check out our project on the Google Play Store !
         </div>
     </div>
+    <script>
+        const btn = document.getElementById('toggleBtn');
+        const div = document.getElementById('showMoreInfoDiv');
+
+        btn.addEventListener('click', () => {
+            if (div.style.display === 'none') {
+                div.style.display = 'block';
+            } else {
+                div.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
