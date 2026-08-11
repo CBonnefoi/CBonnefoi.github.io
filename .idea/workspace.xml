@@ -13,6 +13,8 @@
     <list default="true" id="85353adb-799d-4e85-8def-3df7c77ea37e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Brobots.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Brobots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/CatCafe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Kittn_Coffee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Proof_of_Concept.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/WoW_Boss.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -78,6 +80,7 @@
       <workItem from="1786092767496" duration="4322000" />
       <workItem from="1786354960278" duration="6416000" />
       <workItem from="1786385458680" duration="1547000" />
+      <workItem from="1786440156544" duration="5019000" />
     </task>
     <servers />
   </component>

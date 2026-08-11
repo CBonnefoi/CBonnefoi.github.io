@@ -4,12 +4,12 @@
    =================================== */
 :root {
     --color-bg: #f7f7ff;
-    --color-bg-alt: #e8e9ff;
-    --color-bg-header: #d0d0e4;
+    --color-bg-alt: #e8e9ff; /*lighter ?*/
+    --color-bg-header: #d0d0e4; /*darker ? & pas du gris pcq c'est mochee*/
     --color-text: #131a2a;
     --color-text-muted: #2f3a5f;
     --color-accent: #3a435c;
-    --color-accent-hover: #272e42;
+    --color-accent-hover: #7e86aa;
     --color-border: #131a2a;
     --color-border-header: #131a2a;
     --color-skill: #181821;
@@ -142,12 +142,18 @@ img {
 }
 
 .left-side {
-    /*display: flex;*/
+    width: 20%;
+    min-width: 0;
     flex-direction: column;
     align-items: flex-start;
     gap: var(--spacing-sm);
-    width: 20%;
 }
+
+.right-side {
+    flex: 1;
+    min-width: 0;
+}
+
 
 .centered-div {
     flex: 1;
@@ -166,6 +172,13 @@ img {
     max-width: 100%;
     font-size: 1.5rem;
     line-height: var(--spacing-md);
+}
+
+.centered-text-link{
+    max-width: 100%;
+    font-size: 1.5rem;
+    line-height: var(--spacing-md);
+    text-align: left;
 }
 
 .paragraph{
@@ -240,8 +253,10 @@ img {
 }
 
 .project-item-thumbnail{
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    aspect-ratio: 1 / 1;
 }
 
 .skill-container{
