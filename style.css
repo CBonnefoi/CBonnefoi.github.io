@@ -149,6 +149,28 @@ img {
     margin-bottom: var(--spacing-md);
 }
 
+.top-section-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    margin-bottom: var(--spacing-md);
+}
+
+/*.middle-section {
+    padding: var(--spacing-lg);
+    text-align: center;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    margin-bottom: var(--spacing-md);
+}*/
+
 .left-side {
     width: 20%;
     min-width: 0;
