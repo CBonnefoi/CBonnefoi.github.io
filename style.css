@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Audiowide&family=Goldman:wght@400;700&family=Russo+One&family=Wallpoet&display=swap');
-/* ===================================
-   Variables globales
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*Variables globales
    =================================== */
 :root {
     --color-bg: #FFFFFE;
@@ -15,16 +16,16 @@
     --color-border-header: #131a2a;
     --color-skill: #181821;
 
-    --font-title: "Audiowide", Arial, sans-serif;
-    --font-body: "Goldman", Helvetica, Arial, sans-serif;
+    --font-title: "Lora", Lora, sans-serif;
+    --font-body: "Montserrat", Helvetica, Arial, sans-serif;
     
     --font-size-xxs: 16px;
     --font-size-sm: 18px;
     --font-size-md: 1.4rem;
     --font-size-lg: 1.75rem;
-    --font-size-subtitle: 1.3rem;
-    --font-size-h2: 2rem;
-    --font-size-h1: 3rem;
+    --font-size-subtitle: 1.6rem;
+    --font-size-h2: 2.5rem;
+    --font-size-h1: 3.5rem;
 
     --spacing-xxxs: 0.125rem;
     --spacing-xxs: 0.25rem;
@@ -317,7 +318,6 @@ img {
 .project-item-subtitle{
     font-style: italic;
     font-size: 18px;
-    font-weight: lighter;
 }
 
 .project-item-thumbnail{
