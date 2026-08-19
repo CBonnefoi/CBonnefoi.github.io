@@ -25,6 +25,7 @@
     --font-size-h2: 2rem;
     --font-size-h1: 3rem;
 
+    --spacing-xxxs: 0.125rem;
     --spacing-xxs: 0.25rem;
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
@@ -498,25 +499,28 @@ img {
 }
 
 .sticky-contacts-container{
-    position: sticky;
+    position: fixed;
+    top: 70%;
+    right: var(--spacing-md);
+    transform: translateY(100%);
     z-index: 1000;
-    height: 100%;
-    align-items: center
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    gap: 0;
 }
 
-.sticky-contacts-content-1{
-    position: absolute;
-    bottom: 60px;
-    right: 0;
-    height: 50px;
+.sticky-contacts-content{
+    display: flex;
+    width: 25%;
+    max-height: 60px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 120px));
+    grid-column-gap: var(--spacing-xs);
 }
-
-.sticky-contacts-content-2{
-     position: absolute;
-     bottom: 0;
-     right: 0;
-     height: 50px;
- }
 
 .contact-bubble-image{
     max-width: 50px;
