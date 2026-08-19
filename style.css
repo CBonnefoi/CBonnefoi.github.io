@@ -3,13 +3,14 @@
    Variables globales
    =================================== */
 :root {
-    --color-bg: #f7f7ff;
-    --color-bg-alt: #e8e9ff; /*lighter ?*/
-    --color-bg-header: #d0d0e4; /*darker ? & pas du gris pcq c'est mochee*/
-    --color-text: #131a2a;
-    --color-text-muted: #2f3a5f;
-    --color-accent: #3a435c;
-    --color-accent-hover: #7e86aa;
+    --color-bg: #FFFFFE;
+    --color-bg-alt: #FBF5EE; /*lighter ?*/
+    --color-bg-header: rgba(251, 245, 238, 1); /*darker ? & pas du gris pcq c'est mochee*/
+    --color-text-header: #D8623B;
+    --color-text: #1A1D2B;
+    --color-text-muted: #353955;
+    --color-accent: #D8623B;
+    --color-accent-hover: #E8916E;
     --color-border: #131a2a;
     --color-border-header: #131a2a;
     --color-skill: #181821;
@@ -524,6 +525,7 @@ img {
 }
 
 .header-element{
+    color: var(--color-text-header);
     display: flex;
     width: 25%;
     justify-content: center;
@@ -636,6 +638,11 @@ img {
 
 .parent2:hover .submenu2 {
     display: block;
+}
+
+
+.text-highlight{
+    color: var(--color-accent);
 }
 
 /* ===================================
