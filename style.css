@@ -19,7 +19,7 @@
     
     --font-size-xxs: 16px;
     --font-size-sm: 18px;
-    --font-size-md: 1.5rem;
+    --font-size-md: 1.4rem;
     --font-size-lg: 1.75rem;
     --font-size-subtitle: 1.3rem;
     --font-size-h2: 2rem;
@@ -137,10 +137,16 @@ img {
 /* ===================================
    Section du haut (top-section)
    =================================== */
+.all-sections-parent{
+    display: flex;
+    justify-content: center;
+}
+
 .top-section {
     display: flex;
+    width: 60%;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     gap: var(--spacing-md);
     padding: var(--spacing-md);
@@ -238,7 +244,7 @@ img {
 
 .centered-text-container{
     flex-direction: column;
-    width: 80%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -267,6 +273,7 @@ img {
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
     margin-bottom: var(--spacing-md);
+    width: 60%;
 }
 
 .panel-container{
@@ -308,6 +315,20 @@ img {
     aspect-ratio: 1 / 1;
 }
 
+.centered-anything{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--spacing-md);
+}
+
+.centered-project-item-thumbnail{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
 .skill-container{
     display: flex;
     flex-direction: column;
@@ -339,7 +360,7 @@ img {
     left: -20px;
     width: 110%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
     color: white;
     display: flex;
     align-items: center;
@@ -365,7 +386,7 @@ img {
     left: -20px;
     width: 110%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
     color: white;
     display: flex;
     align-items: center;
@@ -391,7 +412,7 @@ img {
     left: -20px;
     width: 110%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
     color: white;
     display: flex;
     align-items: center;
@@ -467,6 +488,7 @@ img {
     background-color: var(--color-bg-alt);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
+    width: 60%;
 }
 
 

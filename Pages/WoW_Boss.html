@@ -26,117 +26,121 @@
     </div>
     <h1 class="centered-title">Non-official WoW Boss</h1>
     <h2 class="centered-subtitle">Non-official WoW delve Boss, realized from scratch</h2>
-    <div class="top-section">
-        <div class="centered-section-title">
-            The project
-            <img src="../Images/PLACEHOLDER.png" alt="Thumbnail for one of my projects, a non-official WoW boss." class="project-item-thumbnail">
-        </div>
-        <div class="centered-text-container">
-            <div class="centered-text-link">
-                This is a boss I created from scratch. In my design, I wanted it to be the final boss of a new, hypothetical delve for the time-limited event "Midsummer Festival".<br>
-                This boss (called "Krag Iceweaver"), is heavily affiliated with Ice, and that had to be something apparent in his abilities.
-                <br>
-                You can get more information about the Midsummer Festival here : <a href="https://www.wowhead.com/guide/world-events/holidays/midsummer-fire-festival">Wowhead</a><br><br>
-                Since I was alone on this project, I did everything on my own, but the roles I spent the most time on were : <br><br>
-            </div>
-            <div>
-                <ul class="basic-list">
-                    <li><strong><a href="#boss-design">Boss Design :</a></strong> Designing a boss coherent with its context, and making sure it is readable and fun to solve</li>
-                    <li><strong><a href="#balancing">Balancing :</a></strong> Making sure no class is overpowered, and the boss provides a sufficient difficulty while being rewarding</li>
-                    <li><strong><a href="#tech-game-design">Tech GD :</a></strong> Prototyping an entire boss and a class system from scratch to test and validate my design</li>
-                </ul>
+    <div class="centered-anything">
+        <img src="../Images/PLACEHOLDER.png" alt="Thumbnail for one of my projects, a non-official WoW boss." class="centered-project-item-thumbnail">
+    </div>
+    <div class="all-sections-parent">
+        <div class="top-section">
+            <div class="centered-text-container">
+                <div class="centered-text-link">
+                    This is a boss I created from scratch. I designed it as the final boss of a hypothetical delve for the time-limited event "Midsummer Festival" for World of Warcraft.<br>
+                    Since I was alone on this project, I did everything on my own, but the roles I spent the most time on were : <br><br>
+                </div>
+                <div>
+                    <ul class="basic-list">
+                        <li><strong><a href="#boss-design">Boss Design :</a></strong> Designing a boss coherent with its context, and making sure it is readable and fun to solve</li>
+                        <li><strong><a href="#balancing">Balancing :</a></strong> Making sure no class is overpowered, and the boss provides a sufficient difficulty while being rewarding</li>
+                        <li><strong><a href="#tech-game-design">Tech GD :</a></strong> Prototyping an entire boss and a class system from scratch to test and validate my design</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div class="middle-section">
-        <div class="centered-section-title">
-            My Experience
+    <div class="all-sections-parent">
+        <div class="middle-section">
+            <div class="centered-section-title">
+                My Experience
+            </div>
+            <div class="centered-text-container">
+                <div class="centered-text">
+                    <!-- à changer, plutôt dire un peu l'énoncé de la chose je pense -->
+                    The goal of this project was to create a World of Warcraft boss. Since I was alone on this project, I decided to pick only 3 specializations out of the
+                    39 in the game at the time of this project and simplify them before programming them. I also decided to find a way to justify a single player boss in an MMORPG,
+                    simply because I just didn't know how to make networked games.
+                </div>
+            </div>
         </div>
-        <div class="centered-text-container">
+    </div>
+    <div class="all-sections-parent">
+        <div class="middle-section">
+            <div class="centered-section-title">
+                My work
+            </div>
+            <div class="centered-text"  id="boss-design">
+                In Boss Design :<br><br>
+            </div>
             <div class="centered-text">
-                <!-- à changer, plutôt dire un peu l'énoncé de la chose je pense -->
-                The goal of this project was to create a World of Warcraft boss. Since I was alone on this project, I decided to pick only 3 specializations out of the
-                39 in the game at the time of this project and simplify them before programming them. I also decided to find a way to justify a single player boss in an MMORPG, 
-                simply because I just didn't know how to make networked games.
-            </div>
-        </div>
-    </div>
-    <div class="middle-section">
-        <div class="centered-section-title">
-            My work
-        </div>
-        <div class="centered-text"  id="boss-design">
-            In Boss Design :<br><br>
-        </div>
-        <div class="centered-text">
-            <ul class="basic-list">
-                <li>Finding a context in which to place the boss that is coherent with what the game already does</li>
-                <li>Establishing coherent intentions for the boss based on the context it is placed in</li>
-                <li>Designing a set of interesting mechanics and interactions based on the intentions for the boss</li>
-                <li>Finding ways to make mechanics easy to understand, but keeping the boss as a whole a challenge to solve</li>
-            </ul>
-        </div>
-        <button id="toggleBtn">More about this...</button>
-        <div class="" id="showMoreInfoDiv" style="display: none;">
-            <div class="centered-text-moreInfo"> <!--Ici j'ai pas trouvé comment faire le retour à la ligne donc juste met des "<br>" quand il faut-->
-                For this boss, the main issue I had was the multiplayer : I was alone and had limited time, it was impossible for me to make a multiplayer boss.
-                <br><br>
-                But, how could you justify having a single player boss in World of Warcraft ? Moreover, I wanted this boss to test the player's skill, not be a simple
-                quest boss. <br><br>
-                To make sure my boss stayed coherent with what WoW already did, I turned towards the newest content at the time, Delves.
-                Delves are short instances that can scale from 1 to 5 players, and they can easily get really challenging, meaning they were perfect for what I
-                wanted to do. <br><br>
-                I started designing the boss, using the principle of "Nemesis Delves", basically just encounters against a single boss in a Delve. I wanted this boss
-                to be closely related to Ice magic, to better fit with the story I gave him. So, all of his attacks are designed using effects that Ice magic can
-                already create in World of Warcraft. <br><br>
-                I wanted every mechanic to have its own unique way of dealing damage :
-            </div>
-            <div class="centered-text-moreInfo">
-                <ul class="moreInfo-list">
-                    <li>One mechanic is a <b>DoT Effect</b> applied via a debuff from the boss.</li>
-                    <li>One mechanic is applied by <b>entering in contact with pillars</b> in the room</li>
-                    <li>One mechanic is a <b>set of lines</b> to avoid <img src="../Images/POC_GlacialLance.png" alt="A screenshot for an ability of my boss, showing several lines the player has to avoid" class="boss-ability-thumbnail"></li>
-                    <li>One mechanic is a <b>line that follows the player</b>, who must avoid placing that line on pillars <img src="../Images/POC_IceRay.png" alt="A screenshot for an ability of my boss, showing a single line the player has to place correctly" class="boss-ability-thumbnail"></li>
-                    <li>One mechanic is a <b>set of circles on the ground</b> the player has to avoid <img src="../Images/POC_Hailstorm.png" alt="A screenshot for an ability of my boss, showing a single circle the player has to avoid" class="boss-ability-thumbnail"></li>
-                    <li>One mechanic is launching <b>several ice blocks</b> the player has to avoid <img src="../Images/POC_IceAge.png" alt="A screenshot for an ability of my boss, showing several ice blocks the player has to avoid" class="boss-ability-thumbnail"></li>
+                <ul class="basic-list">
+                    <li>Finding a context in which to place the boss that is coherent with what the game already does</li>
+                    <li>Establishing coherent intentions for the boss based on the context it is placed in</li>
+                    <li>Designing a set of interesting mechanics and interactions based on the intentions for the boss</li>
+                    <li>Finding ways to make mechanics easy to understand, but keeping the boss as a whole a challenge to solve</li>
                 </ul>
             </div>
-            <div class="centered-text-moreInfo">
-                This choice meant that every action the boss could make would have a very distinct feedback, but a similar logic to the other actions the boss can make,
-                making learning the boss significantly less about "what does the feedback mean ?" and more about "what should my reaction be" ?
+            <button id="toggleBtn">More about this...</button>
+            <div class="" id="showMoreInfoDiv" style="display: none;">
+                <div class="centered-text-moreInfo"> <!--Ici j'ai pas trouvé comment faire le retour à la ligne donc juste met des "<br>" quand il faut-->
+                    For this boss, the main issue I had was the multiplayer : I was alone and had limited time, it was impossible for me to make a multiplayer boss.
+                    <br><br>
+                    But, how could you justify having a single player boss in World of Warcraft ? Moreover, I wanted this boss to test the player's skill, not be a simple
+                    quest boss. <br><br>
+                    To make sure my boss stayed coherent with what WoW already did, I turned towards the newest content at the time, Delves.
+                    Delves are short instances that can scale from 1 to 5 players, and they can easily get really challenging, meaning they were perfect for what I
+                    wanted to do. <br><br>
+                    I started designing the boss, using the principle of "Nemesis Delves", basically just encounters against a single boss in a Delve. I wanted this boss
+                    to be closely related to Ice magic, to better fit with the story I gave him. So, all of his attacks are designed using effects that Ice magic can
+                    already create in World of Warcraft. <br><br>
+                    I wanted every mechanic to have its own unique way of dealing damage :
+                </div>
+                <div class="centered-text-moreInfo">
+                    <ul class="moreInfo-list">
+                        <li>One mechanic is a <b>DoT Effect</b> applied via a debuff from the boss.</li>
+                        <li>One mechanic is applied by <b>entering in contact with pillars</b> in the room</li>
+                        <li>One mechanic is a <b>set of lines</b> to avoid <img src="../Images/POC_GlacialLance.png" alt="A screenshot for an ability of my boss, showing several lines the player has to avoid" class="boss-ability-thumbnail"></li>
+                        <li>One mechanic is a <b>line that follows the player</b>, who must avoid placing that line on pillars <img src="../Images/POC_IceRay.png" alt="A screenshot for an ability of my boss, showing a single line the player has to place correctly" class="boss-ability-thumbnail"></li>
+                        <li>One mechanic is a <b>set of circles on the ground</b> the player has to avoid <img src="../Images/POC_Hailstorm.png" alt="A screenshot for an ability of my boss, showing a single circle the player has to avoid" class="boss-ability-thumbnail"></li>
+                        <li>One mechanic is launching <b>several ice blocks</b> the player has to avoid <img src="../Images/POC_IceAge.png" alt="A screenshot for an ability of my boss, showing several ice blocks the player has to avoid" class="boss-ability-thumbnail"></li>
+                    </ul>
+                </div>
+                <div class="centered-text-moreInfo">
+                    This choice meant that every action the boss could make would have a very distinct feedback, but a similar logic to the other actions the boss can make,
+                    making learning the boss significantly less about "what does the feedback mean ?" and more about "what should my reaction be" ?
+                </div>
+            </div>
+            <div class="centered-text" id="balancing">
+                <br><br><br>In Balancing :<br><br>
+            </div>
+            <div class="centered-text">
+                <ul class="basic-list">
+                    <li>Using logging tools I've made to understand what is happening and balance the prototype based on real data</li>
+                    <li>Creating Google Sheets tools to store all the values for the classes and the boss</li>
+                    <li>Playtesting and organizing playtests to understand which parts need more tuning</li>
+                </ul>
+                <br><br>
+            </div>
+            <div class="centered-text" id="tech-game-design">
+                <br><br><br>In Technical Game Design :<br><br>
+            </div>
+            <div class="centered-text">
+                <ul class="basic-list">
+                    <li>Prototyping a simplified version of 3 World of Warcraft The War Within classes</li>
+                    <li>Prototyping a modular attack and effect system for the player abilities and boss abilities</li>
+                    <li>Prototyping an entire boss, with its movement and different phases and abilities</li>
+                    <li>Programming a logging system, exporting data in .csv files, which can then be used for Data Analysis</li>
+                </ul>
+                <br><br>
             </div>
         </div>
-        <div class="centered-text" id="balancing">
-            <br><br><br>In Balancing :<br><br>
-        </div>
-        <div class="centered-text">
-            <ul class="basic-list">
-                <li>Using logging tools I've made to understand what is happening and balance the prototype based on real data</li>
-                <li>Creating Google Sheets tools to store all the values for the classes and the boss</li>
-                <li>Playtesting and organizing playtests to understand which parts need more tuning</li>
-            </ul>
-            <br><br>
-        </div>
-        <div class="centered-text" id="tech-game-design">
-            <br><br><br>In Technical Game Design :<br><br>
-        </div>
-        <div class="centered-text">
-            <ul class="basic-list">
-                <li>Prototyping a simplified version of 3 World of Warcraft The War Within classes</li>
-                <li>Prototyping a modular attack and effect system for the player abilities and boss abilities</li>
-                <li>Prototyping an entire boss, with its movement and different phases and abilities</li>
-                <li>Programming a logging system, exporting data in .csv files, which can then be used for Data Analysis</li>
-            </ul>
-            <br><br>
-        </div>
     </div>
-    <div class="bottom-section">
-        <div class="centered-section-title">
-            Conclusion
-        </div>
-        <div class="centered-text">
-            That boss is still one of my favorite projects, even though it's not as polished as I'd want. It allowed me to work on my prototyping skills, as well as
-            linking intentions and story directly into a boss. I also dabbled into some VFX for the feedbacks, which will come in handy when I need to make a new prototype.
+    <div class="all-sections-parent">
+        <div class="bottom-section">
+            <div class="centered-section-title">
+                Conclusion
+            </div>
+            <div class="centered-text">
+                That boss is still one of my favorite projects, even though it's not as polished as I'd want. It allowed me to work on my prototyping skills, as well as
+                linking intentions and story directly into a boss. I also dabbled into some VFX for the feedbacks, which will come in handy when I need to make a new prototype.
+            </div>
         </div>
     </div>
     <div class="sticky-contacts-container">
