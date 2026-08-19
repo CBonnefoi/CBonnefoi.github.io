@@ -133,7 +133,6 @@ img {
     max-width: 100%;
     border-radius: var(--radius);
     display: block;
-    margin-top: var(--spacing-sm);
 }
 
 /* ===================================
@@ -155,7 +154,7 @@ img {
     background-color: var(--color-bg-alt);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
-    margin-bottom: var(--spacing-md);
+    margin: var(--spacing-md);
 }
 
 .top-section-title {
