@@ -367,10 +367,11 @@ img {
 
 .project1-on-hover{
     position: absolute;
-    top: 0;
-    left: -20px;
-    width: 110%;
-    height: 100%;
+    top: -8px;
+    left: -8px;
+    width: 250px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
     color: white;
     display: flex;
@@ -393,10 +394,11 @@ img {
 
 .project2-on-hover{
     position: absolute;
-    top: 0;
-    left: -20px;
-    width: 110%;
-    height: 100%;
+    top: -8px;
+    left: -8px;
+    width: 250px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
     color: white;
     display: flex;
@@ -419,10 +421,11 @@ img {
 
 .project3-on-hover{
     position: absolute;
-    top: 0;
-    left: -20px;
-    width: 110%;
-    height: 100%;
+    top: -8px;
+    left: -8px;
+    width: 250px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
     color: white;
     display: flex;
